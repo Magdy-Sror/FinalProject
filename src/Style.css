@@ -1,0 +1,350 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    
+    background-image: url('./images/nav2.jpg');    
+    background-size: cover;
+    background-position: center;
+}
+.navbar-brand{
+    border-left: 1px solid white;
+}
+
+.navbar img{
+    width: 50px;
+}
+.navbar ul  a{
+border-top: solid 1px white ;
+border-bottom: solid 1px white ;
+font-size: 11px;
+margin-right: 36px;
+
+}
+
+.navbar ul a:hover{
+    opacity: 50%;
+}
+.d-flex{
+    height: 58px;
+    width: 300px;
+border-right: 1px solid white;
+}
+
+.d-flex .form-control{
+    height: 32px;
+    width: 150px;
+    position: relative;
+    top: 25px;
+    right: 90px;
+    opacity: 60%;
+}
+.d-flex .icoN{
+    color: white;
+    position: relative;
+    top: 30px;
+    right: 85px;
+    font-size: 26px;
+}
+.d-flex a{
+    width: 200px;
+    color: white;
+    position: relative;
+    bottom: 7px;
+    left: 80px;
+    font-size: 13.5px;
+    
+}
+nav {
+    margin-top: 30px;
+}
+.Links a{
+    text-decoration: none;
+    color: green;
+    
+    background-color: rgb(232, 239, 245);
+    padding: 10px;
+    border-left: 2px solid gray;
+    font-size: 13px;
+}
+.DocSearch-Input{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+.carousel-caption{
+    height: 150px;
+    width: 600px;
+}
+.Nchat{
+    margin-left:5px;
+}
+.Dchat{
+   font-size: 20px;
+}
+.Dchat img{
+    position: relative;
+    right: 90px;
+    bottom: 40px;
+}
+.BotChat{
+    height: 270px;
+    background-color:azure;
+}
+.BotChat button{
+    position: relative;
+    bottom: 55px;
+}
+.BotChat a{
+    text-decoration: none;
+    color: green;
+    position: relative;
+    left: 130px;
+    
+}
+.botIcon{
+    font-size: 30px;
+    
+}
+.CH {
+    background-image: url(./images/chat.png);
+    background-size: cover;
+    background-position: center;
+}
+.News a{
+    padding: 15px 17px;
+    text-decoration: none;
+    border: 1px solid gray;
+    margin-left: 5px;
+    border-color: antiquewhite;
+}
+.News img{
+    background-position: center;
+    background-size: cover;
+    width: 68px;
+    height: 50px;
+    padding-bottom: 4px;
+
+}
+
+
+.Evalution {
+    background-image: url(./images/bgE.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.More{
+    
+    text-decoration: none;
+    margin-right:47%;
+    margin-top: 10px;
+}
+.All {
+    background-color: white;
+    border: 1pix solid black;
+}
+
+
+.P1{
+    background-image: url(./images/P1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.P1 h1{
+    color: #266E72;
+}
+.P1 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ED7C39;
+}
+
+.P2 {
+   background-image: url(./images/BGK.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
+
+.F img{
+    background-position: center;
+    background-size: cover;
+}
+.F a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    
+}
+.FF{
+    background-color: #407E6E;
+}
+.Evalution .card{
+ border-color: greenyellow;
+}
+.SOC{
+    
+    margin: auto;
+    background-image: url(./images/Component\ 5\ –\ 1.png);
+    background-position:center;
+    background-size: cover;
+
+}
+
+.SOC1{
+    height: 30px;
+    background-image: url(./images/hrbg.png);
+    background-position:center;
+    background-size: cover;
+
+}
+
+.SOC2{
+    background-image: url(./images/bgh3.png);
+    background-position:center;
+    background-size: cover;
+
+}
+
+
+.ClubL{
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+    height: 70px;
+    border: 1px grey solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.ClubL a{
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 13px;
+}
+.ClubL a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+.dropdown-menu li{
+    position: relative;
+    left: 40px;
+}
+
+.DocColor {
+    background-color:#E8E8E8;
+}
+
+
+
+
+
+
+
+
+  @media only screen and(min-width: 1200px),(max-width: 1400px) {
+    .navbar ul  a{
+        
+        font-size: 9px;
+        margin-right: 20px;
+        
+        }
+
+        
+.News a{
+    font-size: 14px;
+    padding: 20px 7px;
+    margin-left: 7px;
+}
+    
+.link1{
+    font-size: 11px;
+}
+
+.carousel-caption{
+    height: 150px;
+    width: 500px;
+}
+  }
+
+
+
+
+  @media only screen and(min-width: 992px),(max-width: 1200px) {
+    .navbar ul  a{
+        
+        font-size: 7px;
+        margin-right: 5px;
+        
+        }
+
+        .Links a{
+            padding: 5px;
+           
+            font-size: 10px;
+        }
+
+        
+     
+        .News a{
+            font-size: 11px;
+            padding:20px 7px;
+            margin-left:9px;
+        }
+        .News img {
+          width: 60px;
+        }
+
+        .link1{
+            font-size: 10px;
+        }
+
+        .carousel-caption{
+            height: 135px;
+            width: 450px;
+        }
+
+ 
+  }
+
+
+  @media only screen and(min-width: 400px),(max-width: 992px) {
+        
+        .Links a{
+            padding: 4px;
+            font-size: 6px;
+        }
+
+             
+.News a{
+    font-size: 10px;
+    padding: 20px 5px;
+    margin-left: 7px;
+}
+.News img{
+    width: 33px;
+}
+
+  }
+
+  
+  @media only screen and(min-width:400px),(max-width: 768px) {
+
+               
+.News a{
+    font-size: 7px;
+    padding: 20px 5px;
+    margin-left: 3px;
+}
+.News img{
+    width: 26px;
+}
+
+  }

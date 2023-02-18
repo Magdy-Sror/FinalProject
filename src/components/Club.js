@@ -1,0 +1,51 @@
+import React from 'react'
+import '../Style.css'
+import S1 from '../images/Mask Group 34.png'
+
+
+function Club() {
+  return (
+    <>
+    <section className='container mb-5 '>
+    <h3 className='SOC2 w-25 p-4 fs-4 text-center'>النادي الرياضي</h3>
+      <hr className='mb-5'/>
+
+      <div className='row'>
+
+<div className='col-lg-3'>
+    <div class="card" >
+        <img src={S1} class="card-img-top" alt="..."></img>
+        <div class="card-body">
+
+            <p class="card-text">يتوفر بة العديد من الرياضيات مثل تنس الطاولة والبلياردو وكرة القدم ورقع الاثقال وبعض الاعاب الاكترونية  </p>
+            <hr/>
+            <a href="SportClub" class="btn btn-light text-success fs-5 rounded me-5">مزيد من المعلومات</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+    </section>
+    
+    
+    
+    
+    
+    
+    </>
+  )
+}
+
+export default Club
